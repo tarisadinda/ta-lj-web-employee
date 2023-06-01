@@ -1,0 +1,118 @@
+.profileName {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.avaWrap  {
+    position: relative;
+}
+
+.editBtn {
+    background-color: #FFF !important;
+    box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.25);
+    position: absolute !important;
+    right: 0;
+    bottom: 0;
+}
+
+.editIcon {
+    color: $dark;
+}
+
+.levelGroup {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.verifIcon {
+    width: 26px;
+    height: 26px;
+}
+
+.wrapper {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    column-gap: 20px;
+}
+
+.nav {
+    width: 15%;
+}
+
+.infoCard {
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+
+    p {
+        margin-bottom: 5px;
+    }
+}
+
+.skillSection {
+    margin-top: 40px;
+}
+
+.editGroup {
+    display: flex;
+    justify-content: space-between;
+}
+
+.group {
+    display: flex;
+    column-gap: 5px;
+}
+
+.skillBtn {
+    width: 100%;
+    display: flex;
+    height: max-content;
+    padding: 5px 10px;
+    justify-content: space-between;
+    column-gap: 5px;
+    border: none;
+
+    &:hover {
+        background-color: $blue-4;
+    }
+}
+
+.editIcon {
+    color: $light-gray;
+
+    span {
+        color: $light-gray;
+    }
+}
+
+.skillList {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.boxWrap {
+    background-color: #F3F6FF;
+    padding: 5px 20px;
+    border-radius: 10px;
+    width: 290px;
+}
+
+.textBtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+
+    span {
+        color: $light-gray;
+    }
+}

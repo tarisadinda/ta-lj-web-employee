@@ -1,0 +1,10 @@
+.wrapCard {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 220px 1fr;
+}
+
+.cardList {
+    display: grid;
+    row-gap: 15px;
+}

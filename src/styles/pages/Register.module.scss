@@ -1,0 +1,42 @@
+.wrapper {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 70px;
+}
+
+.inputSection {
+    display: flex;
+    align-items: center;
+}
+
+.inputData {
+    width: 345px;
+    height: min-content;
+    display: grid;
+    row-gap: 20px;
+
+    p {
+        font-size: $font-32;
+        margin-bottom: 0px;
+    }
+
+    label {
+        font-weight: 500;
+        margin-bottom: 5px;
+    }
+
+    span {
+        font-weight: 500;
+        color: $light-gray;
+    }
+}
+
+.tempLogo {
+    width: 432px;
+    height: 500px;
+
+    color: $gray-1;
+    background-color: $blue-3;
+    border-radius: 20px;
+}
