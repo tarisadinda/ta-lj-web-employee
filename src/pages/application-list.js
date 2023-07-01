@@ -2,6 +2,7 @@ import CompanyCard from '@/components/application-list/company-card'
 import LayoutMain from '@/components/layouts/main'
 import SideMenu from '@/components/profile/side-menu'
 import styles from '@/styles/pages/ApplicationList.module.scss'
+import Link from 'next/link'
 
 export default function ApplicationList() {
     return(<>
@@ -9,7 +10,9 @@ export default function ApplicationList() {
         <div className={styles.wrapCard}>
             <SideMenu />
             <div className={styles.cardList}>
-                <CompanyCard />
+                <Link href='/application-detail'>
+                    <CompanyCard />
+                </Link>
                 <CompanyCard />
             </div>
         </div>
