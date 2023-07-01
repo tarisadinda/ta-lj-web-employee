@@ -4,12 +4,28 @@ import styles from '@/styles/pages/Profile.module.scss'
 import { Avatar, Card, IconButton } from '@mui/material'
 import BorderColorIcon from '@mui/icons-material/BorderColor'
 import NavigateNextIcon from '@mui/icons-material/NavigateNext'
-import SideMenu from "@/components/sidemenus/profile-menu"
+import SideMenu from "@/components/side-menu"
 import SVGVerified from '@/public/icons/verified.svg'
 import { useRouter } from "next/router"
 
 export default function Profile() {
     const router = useRouter()
+
+    const MenuData = [
+        {
+            label: 'Lamaran Saya',
+            value: 1,
+            path: '/application-list'
+        },
+        {
+            label: 'Keahlian Saya',
+            value: 2
+        },
+        {
+            label: 'Penawaran',
+            value: 3
+        },
+    ]
 
     const editInfo = () => {
         router.push('/edit-profile')
@@ -31,7 +47,7 @@ export default function Profile() {
             </div>
             <div className={styles.wrapper}>
                 <div className={styles.nav}>
-                    <SideMenu />
+                    <SideMenu data={MenuData} />
                 </div>
                 <Card variant="outlined" className={styles.infoCard}>
                     <div>
