@@ -13,9 +13,10 @@ export default function LayoutMain({ children }) {
       <div className={inter.className}>
         <Navbar />
         <main
+          className='container'
           style={{
-            margin: '0px 150px',
-            padding: '80px 0px'
+            paddingTop: '80px',
+            marginBottom: '40px'
           }}
         >
           {children}
