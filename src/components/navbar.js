@@ -35,7 +35,6 @@ export default function Navbar() {
                         open={openDropdown}
                         onClick={handleDropdown}
                         sx={{
-                            zIndex: '1010px',
                             '& .MuiPaper-root': {
                                 position: 'absolute',
                                 top: '40px !important',
@@ -64,8 +63,6 @@ export default function Navbar() {
                                 },
                             },
                         }}
-                        // transformOrigin={{ horizontal: 'right', vertical: 'top' }}
-                        // anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}
                     >
                         <MenuItem onClick={handleDropdown} className={styles.userOption}>
                             <Link href='/profile'>Profil Saya</Link>
