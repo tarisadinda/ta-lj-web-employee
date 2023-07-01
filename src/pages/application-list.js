@@ -1,6 +1,6 @@
 import CompanyCard from '@/components/application-list/company-card'
 import LayoutMain from '@/components/layouts/main'
-import SideMenu from '@/components/profile/side-menu'
+import SideMenu from '@/components/sidemenus/profile-menu'
 import styles from '@/styles/pages/ApplicationList.module.scss'
 import Link from 'next/link'
 

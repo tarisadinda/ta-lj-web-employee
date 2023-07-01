@@ -4,7 +4,7 @@ import styles from '@/styles/pages/Profile.module.scss'
 import { Avatar, Card, IconButton } from '@mui/material'
 import BorderColorIcon from '@mui/icons-material/BorderColor'
 import NavigateNextIcon from '@mui/icons-material/NavigateNext'
-import SideMenu from "@/components/profile/side-menu"
+import SideMenu from "@/components/sidemenus/profile-menu"
 import SVGVerified from '@/public/icons/verified.svg'
 import { useRouter } from "next/router"
 

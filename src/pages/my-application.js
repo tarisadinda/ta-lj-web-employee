@@ -1,7 +1,7 @@
 import LayoutMain from "@/components/layouts/main"
 import styles from '@/styles/pages/MyApplication.module.scss'
 import ApplicationCard from "@/components/my-application/application-card"
-import SideMenu from "@/components/profile/side-menu"
+import SideMenu from "@/components/sidemenus/profile-menu"
 
 export default function MyApplication() {
     return(<>
