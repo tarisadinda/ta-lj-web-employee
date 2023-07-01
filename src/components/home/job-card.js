@@ -22,7 +22,7 @@ export default function JobCard() {
                         <Image 
                             src={CompanyImg} 
                             alt="company-img"
-                            width={60 }
+                            width={60}
                             height={60}
                             className={styles.logoCompany}
                         />
