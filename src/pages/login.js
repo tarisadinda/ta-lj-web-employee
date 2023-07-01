@@ -11,10 +11,10 @@ export default function Login() {
     }
     
     return (<>
-        <div className={styles.actions}>
+        {/* <div className={styles.actions}>
             <button className="btn btn-primary blue">Login</button>
             <button className="btn btn-secondary blue">Register</button>
-        </div>
+        </div> */}
         <div className={styles.wrapper}>
             <div>
                 <p className={styles.bannerText}>Selamat Datang!</p>
