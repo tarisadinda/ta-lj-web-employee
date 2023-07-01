@@ -14,7 +14,7 @@ export default function EditProfil() {
     }
 
     return(<>
-        <h4 className={styles.profileText}><b>Edit Profil</b></h4>
+        <h3 className={styles.profileText}><b>Edit Profil</b></h3>
         <div className={styles.avaRow}>
             <Avatar sx={{ width: 150, height: 150 }} />
             <div className={styles.groupBtn}>
