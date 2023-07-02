@@ -5,11 +5,18 @@ import SidemenuLayout from "@/components/layouts/side-menu-layout"
 import AddIcon from '@mui/icons-material/Add'
 import VerifiedSkillCard from '@/components/my-skills/verified-skill-card'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 export default function MySkills() {
+    const router = useRouter()
+
+    const addNewSkill = () => {
+        router.push('/apply-new-skill')
+    }
+
     return(<>
         <h3 className="mb-4"><b>Daftar Keahlian Saya</b></h3>
-        <IconWithButton className={cn(styles.addBtn,'btn btn-primary blue')}>
+        <IconWithButton onClick={addNewSkill} className={cn(styles.addBtn,'btn btn-primary blue')}>
             <AddIcon />
             <span><b>Pengajuan Keahlian Baru</b></span>
         </IconWithButton>
