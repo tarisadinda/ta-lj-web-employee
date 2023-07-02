@@ -8,10 +8,12 @@ export default function SidemenuLayout({ children }) {
         {
             label: 'Approved Skills',
             value: 1,
+            path: '/my-skills'
         },
         {
             label: 'Status Pengajuan',
-            value: 2
+            value: 2,
+            path: '/submission-status'
         },
     ]
 
