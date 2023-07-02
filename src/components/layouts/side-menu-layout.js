@@ -13,7 +13,7 @@ export default function SidemenuLayout({ children }) {
         {
             label: 'Status Pengajuan',
             value: 2,
-            path: '/submission-status'
+            path: '/applied-skill-status'
         },
     ]
 

@@ -13,7 +13,8 @@ export default function ApplicationList() {
         },
         {
             label: 'Keahlian Saya',
-            value: 2
+            value: 2,
+            path: '/my-skills'
         },
         {
             label: 'Penawaran',
