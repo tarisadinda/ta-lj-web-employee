@@ -1,6 +1,7 @@
 export default function IconWithButton({
     className,
-    children
+    children,
+    ...props
 }) {
     return(<>
         <button 
@@ -11,6 +12,7 @@ export default function IconWithButton({
                 justifyContent: 'center',
                 columnGap: '3px'
             }}
+            {...props}
         >
             {children}
         </button>
