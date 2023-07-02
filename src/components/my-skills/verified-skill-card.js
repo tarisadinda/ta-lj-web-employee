@@ -12,7 +12,7 @@ export default function VerifiedSkillCard() {
                 justifyContent: 'space-between', width: '600px' }}
         >
             <div className={styles.text}>
-                <p className='d-flex align-items-center gap-2'>
+                <p className='d-flex align-items-center justify-content-start gap-2'>
                     <span>Level 1</span>
                     <VerifiedIcon />
                 </p>
