@@ -19,7 +19,8 @@ export default function Profile() {
         },
         {
             label: 'Keahlian Saya',
-            value: 2
+            value: 2,
+            path: '/my-skills'
         },
         {
             label: 'Penawaran',
