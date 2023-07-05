@@ -45,3 +45,12 @@
         box-shadow: inset 0px 0px 0px 2px #C3C3C3;
     }
 }
+
+.btn-danger {
+    @extend %button-shape;
+
+    &.red {
+        color: $red;
+        background-color: $light;
+    }
+}
