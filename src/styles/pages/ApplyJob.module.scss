@@ -45,6 +45,10 @@
     }
 }
 
+.fileCV {
+    text-decoration: underline;
+}
+
 .group {
     display: flex;
     column-gap: 5px;
@@ -66,6 +70,12 @@
 
         .editIcon {
             color: $light;
+        }
+    }
+
+    &:active {
+        .editIcon {
+            color: $light-gray;
         }
     }
 }

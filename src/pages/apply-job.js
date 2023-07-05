@@ -30,7 +30,7 @@ export default function ApplyJob() {
                 </div>
                 <div className={styles.textDetail}>
                     <p className='mb-2'><b>Curriculum Vitae/Resume</b></p>
-                    <Link href='#'>CV - Dio Putra.pdf</Link>
+                    <Link href='#' className={styles.fileCV}>CV - Dio Putra.pdf</Link>
                     <span>Diupload pada 5 Juni 2022</span>
                     <span><b>Upload file dalam format PDF maks 5MB.</b></span>
                 </div>
