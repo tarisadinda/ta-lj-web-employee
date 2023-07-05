@@ -1,4 +1,5 @@
-import SidemenuLayout from "@/components/layouts/side-menu-layout";
+import SkillLayout from "@/components/layouts/skill-layout";
+import SidemenuLayout from "@/components/layouts/skill-layout";
 import ApplyStatusCard from "@/components/my-skills/apply-status-card";
 import Link from "next/link";
 
@@ -21,8 +22,8 @@ export default function AppliedSkillStatus() {
 
 AppliedSkillStatus.getLayout = function getLayout(page) {
     return (
-        <SidemenuLayout>
+        <SkillLayout>
             {page}
-        </SidemenuLayout>
+        </SkillLayout>
     )
 }

@@ -1,11 +1,12 @@
 import styles from '@/styles/pages/MySkills.module.scss'
 import cn from 'classnames'
 import IconWithButton from "@/components/icon-button"
-import SidemenuLayout from "@/components/layouts/side-menu-layout"
+import SidemenuLayout from "@/components/layouts/skill-layout"
 import AddIcon from '@mui/icons-material/Add'
 import VerifiedSkillCard from '@/components/my-skills/verified-skill-card'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import SkillLayout from '@/components/layouts/skill-layout'
 
 export default function MySkills() {
     const router = useRouter()
@@ -42,8 +43,8 @@ export default function MySkills() {
 
 MySkills.getLayout = function getLayout(page) {
     return (
-        <SidemenuLayout>
+        <SkillLayout>
             {page}
-        </SidemenuLayout>
+        </SkillLayout>
     )
 }
