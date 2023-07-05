@@ -1,9 +1,9 @@
 import Navbar from "../navbar"
 import cn from 'classnames'
-import styles from '@/styles/components/layouts/SidemenuLayout.module.scss'
+import styles from '@/styles/components/layouts/SkillLayout.module.scss'
 import SideMenu from "../side-menu"
 
-export default function SidemenuLayout({ children }) {
+export default function SkillLayout({ children }) {
     const MenuData = [
         {
             label: 'Approved Skills',
